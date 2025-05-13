@@ -1,0 +1,80 @@
+{
+  "name": "catechism-web",
+  "version": "0.0.3",
+  "homepage": "https://nossbigg.github.io/catechism",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "4.1.3",
+    "@material-ui/icons": "4.2.1",
+    "@types/jest": "24.0.14",
+    "@types/node": "12.0.8",
+    "@types/react": "16.8.20",
+    "@types/react-dom": "16.8.4",
+    "classnames": "2.2.6",
+    "lunr": "2.3.6",
+    "query-string": "6.8.2",
+    "ramda": "0.26.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-helmet": "5.2.1",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.0.1",
+    "typescript": "3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --cache 'src/**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "yarn lint --fix",
+    "build:node-runnable": "tsc --module commonjs --noemit false --outDir build_local -p tsconfig.json",
+    "build:static-assets": "yarn build:node-runnable && node build_local/makeStaticAssets/run.js",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "predeploy": "yarn build:static-assets && yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint && CI=true yarn test"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/classnames": "2.2.9",
+    "@types/fs-extra": "8.0.0",
+    "@types/lunr": "2.3.2",
+    "@types/ramda": "0.26.19",
+    "@types/react-helmet": "5.0.9",
+    "@types/react-router-dom": "4.3.4",
+    "@types/request-promise-native": "1.0.16",
+    "@typescript-eslint/eslint-plugin": "1.10.2",
+    "@typescript-eslint/parser": "1.10.2",
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "5.0.0",
+    "eslint-plugin-fp": "2.3.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react-hooks": "1.6.0",
+    "fs-extra": "8.1.0",
+    "gh-pages": "2.1.1",
+    "husky": "2.4.1",
+    "prettier": "1.18.2",
+    "request-promise-native": "1.0.7",
+    "sitemap": "4.1.1",
+    "source-map-explorer": "2.0.1"
+  }
+}
