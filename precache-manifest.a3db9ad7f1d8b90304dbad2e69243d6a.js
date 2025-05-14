@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05dab67e83e30869a6d2f589db37a1b5",
+    "revision": "0fbbbfb6254e5c50a31a0691f51610ba",
     "url": "/catechism/index.html"
   },
   {
-    "revision": "d9a2aac5dc7cb2d34368",
+    "revision": "2690106dad5290fe3d01",
     "url": "/catechism/static/css/main.df1fe396.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/catechism/static/js/2.ccfe72b6.chunk.js"
   },
   {
-    "revision": "d9a2aac5dc7cb2d34368",
-    "url": "/catechism/static/js/main.239c9fb1.chunk.js"
+    "revision": "2690106dad5290fe3d01",
+    "url": "/catechism/static/js/main.61127944.chunk.js"
   },
   {
     "revision": "89ee3beb61e71ed07140",
