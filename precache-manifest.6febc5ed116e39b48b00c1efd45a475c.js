@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca42eaf538748bbfd2f76caa08ddc2d7",
+    "revision": "88cff643498b4cde89253346e1f2d513",
     "url": "/catechism/index.html"
   },
   {
-    "revision": "5631ea98c943fe508799",
+    "revision": "b227d79c4a003895ca06",
     "url": "/catechism/static/css/main.df1fe396.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/catechism/static/js/2.ccfe72b6.chunk.js"
   },
   {
-    "revision": "5631ea98c943fe508799",
-    "url": "/catechism/static/js/main.1e5c4f06.chunk.js"
+    "revision": "b227d79c4a003895ca06",
+    "url": "/catechism/static/js/main.24546644.chunk.js"
   },
   {
     "revision": "89ee3beb61e71ed07140",
     "url": "/catechism/static/js/runtime~main.3c531b9b.js"
   },
   {
-    "revision": "07883e93734b98cae0f7b9c55d287250",
-    "url": "/catechism/static/media/github.07883e93.svg"
+    "revision": "4677ac28b0c08ecdc126b27970a7b115",
+    "url": "/catechism/static/media/github.4677ac28.svg"
   },
   {
     "revision": "7e877805dd1d832df8a4bd6ba9b890c0",

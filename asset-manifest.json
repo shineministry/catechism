@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/catechism/static/css/main.df1fe396.chunk.css",
-    "main.js": "/catechism/static/js/main.1e5c4f06.chunk.js",
-    "main.js.map": "/catechism/static/js/main.1e5c4f06.chunk.js.map",
+    "main.js": "/catechism/static/js/main.24546644.chunk.js",
+    "main.js.map": "/catechism/static/js/main.24546644.chunk.js.map",
     "runtime~main.js": "/catechism/static/js/runtime~main.3c531b9b.js",
     "runtime~main.js.map": "/catechism/static/js/runtime~main.3c531b9b.js.map",
     "static/js/2.ccfe72b6.chunk.js": "/catechism/static/js/2.ccfe72b6.chunk.js",
     "static/js/2.ccfe72b6.chunk.js.map": "/catechism/static/js/2.ccfe72b6.chunk.js.map",
     "index.html": "/catechism/index.html",
-    "precache-manifest.5fa68ea86913507378e81ffea4697b31.js": "/catechism/precache-manifest.5fa68ea86913507378e81ffea4697b31.js",
+    "precache-manifest.6febc5ed116e39b48b00c1efd45a475c.js": "/catechism/precache-manifest.6febc5ed116e39b48b00c1efd45a475c.js",
     "service-worker.js": "/catechism/service-worker.js",
     "static/css/main.df1fe396.chunk.css.map": "/catechism/static/css/main.df1fe396.chunk.css.map",
-    "static/media/github.svg": "/catechism/static/media/github.07883e93.svg",
+    "static/media/github.svg": "/catechism/static/media/github.4677ac28.svg",
     "static/media/psl.cjs": "/catechism/static/media/psl.7e877805.cjs"
   }
 }
